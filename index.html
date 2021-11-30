@@ -1,418 +1,502 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://openlayers.org/en/v6.1.1/css/ol.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Ram & Antara getting hitched!</title>
+    <meta name="description" content="We would like to invite you to our big day.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Ram & Antara getting hitched">
+    <meta property="og:description" content="We would like to invite you to our big day.">
+    <meta property="og:image" content="https://wedding.ramswaroop.me/img/hero-min.jpg">
+    <meta property="og:type" content="website">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body id="top">
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+<section class="hero">
+    <section class="navigation">
+        <header>
+            <div class="header-content">
+                <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
+                <div class="header-nav">
+                    <nav>
+                        <ul class="primary-nav">
+                            <li><a href="#intro">How we met</a></li>
+                            <li><a href="#events">Events</a></li>
+                            <li><a href="#instagram">Instagram</a></li>
+                            <li><a href="#eng-pics">Engagement</a></li>
+                            <li class="hidden-sm hidden-xs"><a href="#video-bg">Glimpse of the city</a></li>
+                        </ul>
+                        <ul class="member-actions">
+                            <li><a href="#map" class="login">Venue</a></li>
+                            <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="navicon">
+                    <a class="nav-toggle" href="#"><span></span></a>
+                </div>
+            </div>
+        </header>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="hero-content text-center">
+                    <!--<h1>Ram and Antara</h1>-->
+                    <img src="img/logo-lg.png">
+                    <!--<p class="intro">Ram & Antara are getting hitched!</p>-->
+                    <!--<a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a> -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 hidden-xs"></div>
+            <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
+                                                           class="btn btn-accent btn-large rsvp-btn">RSVP</a></div>
+            <div class="col-sm-4 hidden-xs"></div>
+        </div>
+    </div>
+    <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
+</section>
 
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-		integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
-		crossorigin="anonymous" />
+<section id="invitation" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>We are getting hitched</h3>
+                <p>The dates are 27<sup>th</sup> & 28<sup>th</sup> of November '17 and we would like you to be a part of
+                    it.</p>
+                <div class="share-bar"></div>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <style>
-      #map {
-        background: #202020;
-        font-size: 16px;
-        font-family: "Roboto", sans-serif;
-      }
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="header">How we met</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/IMG_2317.jpg" class="wp1"></div>
+            <div class="col-md-6">
+                <p>
+                    I first saw Antara in the Fall of 2008 when we started our undergrad. I was instantly attracted to
+                    her but was far too nervous to speak to her. I had told my friend I liked her and news had traveled
+                    fast and she soon found out. Her first reaction was "Who is Ram?" and she began searching for me in
+                    the class. She started to take notice of me and no matter how boring the lecture was, we never
+                    missed a class after that. After a good few months I finally plucked up the courage to ask her out
+                    and the rest is history :)
+                </p>
+            </div>
+            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/DSD_0214.jpg" class="wp2"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/IMG_2317.jpg" class="wp8"></div>
+            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/DSD_0214.jpg" class="wp9"></div>
+        </div>
+    </div>
+</section>
 
-      body,
-      html,
-      #map {
-        margin: 0px;
-        width: 100%;
-        height: 100%;
-      }
+<section class="events section-padding" id="events">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="header">Events</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+                <div class="wp3">
+                    <p><strong>27th November</strong></p>
 
-      .layer-select {
-        position: absolute;
-        top: 0.5em;
-        right: 0.5em;
-        width: 150px;
-      }
-    </style>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
+                    <h5>Mehndi <span class="time">1PM - 5PM</span></h5>
+                    <p>It's one of the oldest traditional Indian pre wedding ceremony where the bride and groom
+                        attend the event together and a professional mehndi artist applies
+                        mehndi to the bride's hands and feet. This will be having a celebratory
+                        festival feel to it with people wearing vibrant clothes and dancing, singing, playing
+                        games and a lot more.</p>
+                </div>
+                <div class="wp5">
+                    <h5>Cocktail Night <span class="time">7PM - 12AM</span></h5>
+                    <p>This event is no way close to ethnic. The bride & groom would like to have some "shots before the
+                        knot". With booze flowing down the floor and the western attire on, everyone would be busy
+                        showing off their new moves on the stage which they have finely honed. Lastly, expect some beer
+                        pong matches & karaoke for sure.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+                <div class="wp4">
+                    <p><strong>28th November</strong></p>
 
-  <body margin="0" padding="0">
-    <script src="https://openlayers.org/en/v6.1.1/build/ol.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+                    <h5>Haldi <span class="time">10AM-11AM</span></h5>
+                    <p>The haldi ceremony is usually held separately for the bride and the groom. This one is for the
+                        bride. It is a low-key event that involves the application of turmeric paste on the hands, legs
+                        and face of the bride. The groom is not allowed to see the bride after this ritual until the
+                        final wedding ceremony starts.</p>
+                </div>
+                <div class="wp6">
+                    <h5>Wedding <span class="time">6PM-12AM</span></h5>
+                    <p>This is the main event in the entire wedding when the bride and the groom tie the
+                        knot. The groom comes with the barat and is greeted by the bride side with some dhol of course
+                        as maximum number of guests would be attending this event. This is when the couple circle the
+                        sacred fire and are finally declared husband and wife.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row section-padding">
+            <div class="col-md-4 col-md-offset-4 text-center">
+                <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
+                    <i class="fa fa-barcode"></i>&nbsp;&nbsp;Dress code
+                </a>
+            </div>
+        </div>
+        <!--<div class="row">
+            <div class="col-xs-12 section-border section-padding">
+            </div>
+        </div>-->
+    </div>
 
-    <script src="playersData.js"></script>
+    <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <h3 class="text-center section-padding">Ugh... dress codes?</h3>
+                    <h5>Mehndi <span class="time">1PM - 5PM</span></h5>
+                    <p>
+                        <strong>Ethnic indian wear</strong>
+                        <br>
+                        Ladies can wear something
+                        <a href="https://www.pinterest.com/ramswarooppatra/mehndi-dress-for-women/">bright & vivid</a>
+                        and gentlemen can be on
+                        their <a href="https://www.pinterest.com/ramswarooppatra/mehndi-dress-for-men/">vibrant
+                        kurtas</a> with pants or pyjamas along with an optional shawl.
+                    </p>
+                    <h5>Cocktail Night <span class="time">7PM - 12AM</span></h5>
+                    <p>
+                        <strong>Western attire</strong>
+                        <br>
+                        A semi-formal look that is contemporary & fashionable which is not too prim & proper is the best
+                        to pull off this night. You can see some pins for
+                        <a href="https://www.pinterest.com/ramswarooppatra/cocktail-night-outfit-for-women/">ladies</a>
+                        & <a href="https://www.pinterest.com/ramswarooppatra/cocktail-night-outfit-for-men/">gents</a>.
+                    </p>
+                    <h5>Wedding <span class="time">6PM-12AM</span></h5>
+                    <p>
+                        <strong>Indo-western</strong>
+                        <br>
+                        Ladies can flaunt their unconventional sarees,
+                        <a href="https://www.pinterest.com/ramswarooppatra/indo-western-lehengas/">lehengas</a>,
+                        <a href="https://www.pinterest.com/ramswarooppatra/indo-western-anarkalis/">anarkalis</a>,
+                        dresses and the list
+                        goes on whereas gentlemen can wear any kind of suit or just blazer. If you don't like to wear a
+                        suit/blazer, you can do a <a
+                            href="https://www.pinterest.com/ramswarooppatra/high-neck-jackets-for-men/">high-neck
+                        (band gala) waistcoat & shirt</a> combo.
+                    </p>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
-    <div id="map"></div>
-    <script>
-      var layers = {
-        dim0: {
-          name: "Overworld",
-          attribution:
-            '<a href="https://github.com/mjungnickel18/papyruscs">PapyrusCS</a>',
-          minNativeZoom: 15,
-          minZoom: 15,
-          maxNativeZoom: 20,
-          maxZoom: 22,
-          noWrap: true,
-          tileSize: 512,
-          folder: "dim0",
-          fileExtension: "png"
-        }
-      };
+</section>
 
-      var config = {
-        factor: 1
-      };
+<section id="instagram" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>A picture is worth a thousand words!</h3>
+                <p>Help us capture the moment, tag your photos with the hashtag
+                    <a href="https://instagram.com/explore/tags/ramandantara/" target="_blank">#RamAndAntara</a>
+                </p>
+            </div>
+        </div>
+        <div class="row section-border wp7">
+            <div class="col-md-4 col-md-offset-4">
+                <img src="img/iphone_instagram.jpg">
+            </div>
+        </div>
+    </div>
+</section>
 
-      layers = {"dim0":{"name":"Overworld","attribution":"Generated by <a href=\"https://github.com/mjungnickel18/papyruscs\">PapyrusCS</a>","minNativeZoom":13,"maxNativeZoom":20,"noWrap":true,"tileSize":512,"folder":"dim0","fileExtension":"png"}}; 
-config = {"factor":65536.0,"globalMinZoom":13,"globalMaxZoom":20,"tileSize":512,"blocksPerTile":32};
+<section id="eng-pics" class="section-padding">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="header">Engagement Pics</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/_RFX2942-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/_RFX2942-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/IMG_3483-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/IMG_3483-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/_RFX2992-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/_RFX2992-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/_RFX3064-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/_RFX3064-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/NGP_4089-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/NGP_4089-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/NGP_4119-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/NGP_4119-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row hidden-lg hidden-md hidden-xs">
+            <div class="col-xs-12 section-border section-padding"></div>
+        </div>
+    </div>
+    <!--<div class="row">
+        <div class="col-md-12">
+            <div class="diamond floating-logo">
+                <img src="img/sketch-logo.png" alt="Sketch Logo">
+                <div class="ring"></div>
+            </div>
+        </div>
+    </div>-->
+</section>
 
-      // ======
+<section id="video-bg" class="hidden-sm hidden-xs">
+    <div id="bgndVideo" class="player"
+         data-property="{videoURL:'https://youtu.be/9giqL1H6yRs',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
+    </div>
+    <div id="video-content">
+        <h5>Kolkata</h5>
+        <p>City of joy</p>
+    </div>
+</section>
 
-      // For the extent sizes specified below, OpenLayers tries to fit
-      // the whole extents given in a space [0, 0] -> [2^8, 2^8] visually
-      // on screen at zoom level 0.
-      //
-      // This constant represents that internal tile size that OpenLayers
-      // will aim for, so that we can calculate zoom levels correctly later.
-      const openLayersInternalTileSize = Math.pow(2, 8); // 256
+<section id="map" class="section-padding">
+    <div class="text-center">
+        <h3>How do I get there?</h3>
+        <p>It's way easier than you think!</p>
+    </div>
+    <div id="map-canvas"></div>
+    <div id="map-content-wrapper" class="container pointer-events-none">
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
+                <div class="text-center">
+                    <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
+                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
+                    </div>
+                </div>
+                <div id="map-content" class="pointer-events-auto">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>ITC Fortune Park</h5>
+                            <p>Kona Expressway, Howrah, West Bengal 711403, India</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Mr. Amit Roy</h5>
+                            <p><i class="fa fa-mobile"></i> <a href="tel://+919412345678">+91 9412345678</a><br>
+                                <i class="fa fa-mobile"></i> <a href="tel://+917123456789">+91 7123456789</a></p>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-6" style="padding: 5px;">
+                            <a class="btn btn-fill btn-small"
+                               href="https://m.uber.com/ul/?action=setPickup&client_id=Yh7Dl6SjB56RY2JuuZF8ttVa6ryFV78W&pickup=my_location&dropoff[formatted_address]=Fortune%20Park%20Panchwati%20-%20Hotels%20in%20Kolkata%2C%20Howrah%2C%20West%20Bengal%2C%20India&dropoff[latitude]=22.593276&dropoff[longitude]=88.270277"><i
+                                    class="fa fa-taxi"></i>&nbsp;&nbsp;Book Uber</a>
+                        </div>
+                        <div class="col-md-6" style="padding: 5px;">
+                            <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
+                                map</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-      // The actual size of the tiles that we're using in Papyrus.
-      const tileSize = config.tileSize;
+<section class="rsvp text-center" id="rsvp">
 
-      // The maximum positive extents of the whole map. The units for this
-      // value are "number of tiles at the most zoomed out level generated
-      // by Papyrus". That is, if Papyrus generates a minimum zoom level
-      // of 15, then the units for this extent size are the number of (Papyrus)
-      // zoom level 15 tiles to display at (OpenLayers) zoom level 0.
-      //
-      // The minimum zoom level that Papyrus is using is in config.globalMinZoom.
-      const maximumExtentSize = 10000;
+    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <div class="section-padding">
+                        <h3>Thank you!</h3>
+                        <p>We are glad to see you join us on our big day.</p>
+                        <div id="add-to-cal"></div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
-      // The minimum negative extents of the whole map. Uses the same units
-      // as maximumExtentSize.
-      const minimumExtentSize = -10000;
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h3>What are you waiting for?</h3>
+                <p>We would greatly appreciate if you could RSVP before 1st of November '17</p>
+                <form id="rsvp-form" class="rsvp-form"
+                      action=""
+                      method="POST">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
+                                                                     placeholder="Your email"
+                                                                     required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><input name="name" class=""
+                                                                 placeholder="Your name"
+                                                                 required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
+                                                                  max="4"
+                                                                  placeholder="Husband/Wife or kids"
+                                                                  required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
+                                                                class="" min="0"
+                                                                placeholder="Invite code"
+                                                                required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id="alert-wrapper"></div>
+                    </div>
+                    <button class="btn-fill rsvp-btn">
+                        Yes,
+                        that's me!
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 
-      // Computes the resolutions array to use for OpenLayers. For each OpenLayers
-      // zoom level (0 through 42), this computes the ratio such that a single tile
-      // at OpenLayers zoom level 0 is a single tile at the minimum Papyrus zoom level.
-      const papyrusMinimumZoomScale = Math.pow(2, config.globalMinZoom);
-      const convertedFromTilesToPixelsUsingTileSize = papyrusMinimumZoomScale / tileSize;
-      const resolutions = new Array(43);
-      for (let z = 0; z < 43; ++z) {
-        resolutions[z] = convertedFromTilesToPixelsUsingTileSize / Math.pow(2, z);
-      }
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center content">
+                <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
+                <p>Crafted by Ram with lots of <span class="fa fa-heart pulse2"></span> for Antara</p>
+            </div>
+        </div>
+    </div>
+</footer>
 
-      // When we calculate resolutions above, we've effectively saying that zoom level 0 is
-      // zoom level N, where N is the lowest zoom level. This zoom level N also becomes
-      // the range of [0, 0] -> [1, 1] in the coordinate system. We need to be able to translate
-      // coordinates in that "zoomed out" coordinate system, back down to the maximum zoom level
-      // where each tile represents 32x32 (depending on tilesize) Minecraft tiles.
-      const zoomRatioForMaximumZoom = 1 / Math.pow(2, config.globalMaxZoom - config.globalMinZoom);
-      const minecraftTilesAtMostZoomedInLevel = config.blocksPerTile;
-
-      // Use a projection where pixels have a 1:1 ratio with the screen at zoom level 0.
-      const projection = new ol.proj.Projection({
-        code: "ZOOMIFY",
-        units: "pixels",
-        extent: [
-          0,
-          0,
-          openLayersInternalTileSize / tileSize,
-          openLayersInternalTileSize / tileSize
-        ]
-      });
-
-      // Construct the tile grid using the desired maximum and minimum extents listed above,
-      // set the origin to [0, 0] (the center of the map), and the calculated resolutions array.
-      const tilegrid = new ol.tilegrid.TileGrid({
-        extent: [
-          minimumExtentSize,
-          minimumExtentSize,
-          maximumExtentSize,
-          maximumExtentSize
-        ],
-        origin: [0, 0],
-        resolutions: resolutions,
-        tileSize: [tileSize, tileSize]
-      });
-
-      let map;
-      let locationElement;
-
-      const tileLayers = Object.keys(layers)
-        .sort()
-        .map(function(layerKey, idx) {
-          const layer = layers[layerKey];
-          const tileLayer = new ol.layer.Tile({
-            source: new ol.source.XYZ({
-              tileUrlFunction: function(tileCoord, pixelRatio, projection) {
-                const z = tileCoord[0];
-                const x = tileCoord[1];
-                const y = tileCoord[2];
-                return (
-                  "./" +
-                  layer.folder +
-                  "/" +
-                  z +
-                  "/" +
-                  x +
-                  "/" +
-                  y +
-                  "." +
-                  layer.fileExtension
-                );
-              },
-              projection: projection,
-              tileGrid: tilegrid,
-              attributions: layer.attribution
-            }),
-            visible: idx == 0
-          });
-          tileLayer.metaLayerKey = layerKey;
-          return tileLayer;
-        });
-
-      const initialLayer = layers[Object.keys(layers).sort()[0]];
-
-      if (Object.keys(layers).sort()[0] == "dim0_stronghold") {
-        document.getElementById("map").style.background = "#fff";
-      } else {
-        document.getElementById("map").style.background = "#202020";
-      }
-                
-      const view = new ol.View({
-        projection: projection,
-        center: [0, 0],
-        zoom: 0,
-        minZoom: 0,
-        maxZoom: config.globalMaxZoom - config.globalMinZoom
-      });
-
-      const PapyrusControls = (function(Control) {
-        function PapyrusControls(opt_options) {
-          const options = opt_options || {};
-
-          const element = document.createElement("div");
-          element.className = "layer-select ol-unselectable";
-
-          const card = document.createElement("div");
-          card.className = "card";
-          element.appendChild(card);
-
-          const cardBody = document.createElement("div");
-          cardBody.className = "card-body p-3 px-3";
-          card.appendChild(cardBody);
-
-          const form = document.createElement("form");
-          cardBody.appendChild(form);
-
-          let currentSelectedLayer = Object.keys(layers).sort()[0];
-          let rememberedCenters = {};
-          let rememberedZoom = {};
-
-          Object.keys(layers)
-            .sort()
-            .forEach(function(layerKey, idx) {
-              const layer = layers[layerKey];
-
-              const radioContainer = document.createElement("div");
-              radioContainer.className = "custom-control custom-radio";
-
-              const radioInput = document.createElement("input");
-              radioInput.type = "radio";
-              radioInput.id = layerKey;
-              radioInput.name = "layers";
-              radioInput.className = "custom-control-input";
-              radioInput.checked = idx == 0;
-              radioInput.value = layerKey;
-              radioContainer.appendChild(radioInput);
-
-              const radioLabel = document.createElement("label");
-              radioLabel.htmlFor = layerKey;
-              radioLabel.className = "custom-control-label";
-              radioLabel.innerText = layer.name;
-              radioContainer.appendChild(radioLabel);
-
-              const selectLayer = function(e) {
-                if (layerKey == "dim0_stronghold") {
-                  document.getElementById("map").style.background = "#fff";
-                } else {
-                  document.getElementById("map").style.background = "#202020";
-                }
-        
-                if (currentSelectedLayer != layerKey) {
-                  const runtimeLayers = map.getLayers();
-                  runtimeLayers.forEach(function(runtimeLayer) {
-                    runtimeLayer.setVisible(
-                      runtimeLayer.metaLayerKey == layerKey
-                    );
-                  });
-                  
-                  const oldFocusGroup = currentSelectedLayer.substr(0, 4);
-                  const newFocusGroup = layerKey.substr(0, 4);
-
-                  rememberedCenters[oldFocusGroup] = view.getCenter();
-                  if (rememberedCenters[newFocusGroup] === undefined) {
-                    // refocus the map to 0, 0
-                    view.setCenter([0, 0]);
-                  } else {
-                    // set back to where we were
-                    view.setCenter(rememberedCenters[newFocusGroup]);
-                  }
-
-                  rememberedZoom[oldFocusGroup] = view.getZoom();
-                  view.setMinZoom(layer.minNativeZoom - config.globalMinZoom);
-                  view.setMaxZoom(layer.maxNativeZoom - config.globalMinZoom);
-                  if (rememberedZoom[newFocusGroup] === undefined) {
-                    // rezoom the map to minimum zoom
-                    view.setZoom(layer.minNativeZoom - config.globalMinZoom);
-                  } else {
-                    // set back to where we were
-                    view.setZoom(rememberedZoom[newFocusGroup]);
-                  }
-
-                  const radios = $("input[name='layers']");
-                  radios.each(function(idx, elem) {
-                    if (elem.value == layerKey) {
-                      elem.checked = true;
-                    } else {
-                      elem.checked = false;
-                    }
-                  });
-
-                  currentSelectedLayer = layerKey;
-                }
-              };
-
-              radioInput.addEventListener(
-                "click",
-                selectLayer.bind(this),
-                false
-              );
-
-              form.appendChild(radioContainer);
-            });
-
-          const hr = document.createElement("hr");
-          form.appendChild(hr);
-
-          locationElement = document.createElement("div");
-          locationElement.innerText = "X: 0, Z: 0";
-          form.appendChild(locationElement);
-
-          Control.call(this, {
-            element: element,
-            target: options.target
-          });
-        }
-
-        if (Control) PapyrusControls.__proto__ = Control;
-        PapyrusControls.prototype = Object.create(Control && Control.prototype);
-        PapyrusControls.prototype.constructor = PapyrusControls;
-
-        return PapyrusControls;
-      })(ol.control.Control);
-
-      map = new ol.Map({
-        target: "map",
-        layers: tileLayers,
-        view: view,
-        controls: [
-          new ol.control.Zoom(),
-          new ol.control.Attribution(),
-          new PapyrusControls()
-        ]
-      });
-
-      map.on("pointermove", function(event) {
-        var x = Math.floor(
-          (event.coordinate[0] / zoomRatioForMaximumZoom) *
-            minecraftTilesAtMostZoomedInLevel
-        );
-        var z = Math.floor(
-          (-event.coordinate[1] / zoomRatioForMaximumZoom) *
-            minecraftTilesAtMostZoomedInLevel
-        );
-
-        locationElement.innerText = "X: " + x + " Z: " + z;
-      });
-
-      if (typeof(playersData) !== "undefined") {
-        var playerFeatures = [];
-
-        for (var playerIndex in playersData.players)
-        {
-            var player = playersData.players[playerIndex];
-
-            if (!player.visible) {
-                continue;
-            }
-
-            if (player.dimensionId !== 0) {
-                // TODO: Currently I'm only adding player markers who are in the Overworld
-                // We'll want to show players depending on which dimension is being viewed
-                // Maybe add a separate layer for players in each dimension
-                continue;
-            }
-
-            var style = new ol.style.Style({
-                text: new ol.style.Text({
-                    text: player.name + "\n\uf041", // map-marker
-                    font: "900 18px 'Font Awesome 5 Free'",
-                    textBaseline: "bottom",
-                    fill: new ol.style.Fill({color: player.color}),
-                    stroke: new ol.style.Stroke({color: "white", width: 2})
-                })
-            });
-
-            var playerFeature = new ol.Feature({
-                geometry: new ol.geom.Point([
-                    (player.position[0] * zoomRatioForMaximumZoom) / minecraftTilesAtMostZoomedInLevel,
-                    (-player.position[2] * zoomRatioForMaximumZoom) / minecraftTilesAtMostZoomedInLevel
-                ])
-            });
-
-            playerFeature.setStyle(style);
-
-            playerFeatures.push(playerFeature);
-        }
-
-        var vectorSource = new ol.source.Vector({
-            features: playerFeatures
-        });
-
-        var vectorLayer = new ol.layer.Vector({
-            source: vectorSource
-        });
-
-        map.addLayer(vectorLayer);
-      }
-    </script>
-  </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="js/vendor/ouical.js"></script>
+<script src="js/scripts.min.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlPw3GQYI3faa_9mRE6plWuM7xNEmrwH0&callback=initMap"></script>
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-46465113-4', 'auto');
+    ga('send', 'pageview');
+</script>
+</body>
 </html>
