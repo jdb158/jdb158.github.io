@@ -3,14 +3,18 @@
 <!-- TODO
 X Add custom icons
 X Troubleshoot fly-in pics on mobile
-1. Add COVID-19 Section
-2. Remove Instagram link at top
-3. Configure RSVP
+X Add COVID-19 Section
+X Remove Instagram link at top
+X Figure out RSVP Back end
+X Configure RSVP
 X Disable RSVP for now
 	-hold tight.  You can text us in the meantime
+4. Add hotel picutes and links
 5. Add Registry Section/Link
-6. Get Google Map working or remove.
+X Get Google Map working or remove.
+	*REMOVED
 	University Circle Destinations, Downtown, Our House, National Park
+-. Add engagement pictures 2 per col
 -. Trivia
 -. Top 8
 -->
@@ -63,9 +67,10 @@ X Disable RSVP for now
                         <ul class="primary-nav">
                             <li><a href="#intro">Our Story</a></li>
                             <li><a href="#events">Schedule</a></li>
-                            <li><a href="#instagram">COVID-19</a></li>
+                            <li><a href="#covid19">COVID-19</a></li>
                             <li><a href="#eng-pics">Engagement</a></li>
-                            <li class="hidden-sm hidden-xs"><a href="#video-bg">Glimpse of the city</a></li>
+							<li><a href="#hotel">Accomodations</a></li>
+                            <li class="hidden-sm hidden-xs"><a href="#video-bg">Cleveland</a></li>
                         </ul>
                         <ul class="member-actions">
                             <li><a href="#map" class="login">Venue</a></li>
@@ -168,13 +173,15 @@ X Disable RSVP for now
 					<p>The ceremony will begin promptly at 6PM.</p>
 				</div>
                 <div class="wp5">
-                    <h5>Cocktail Hour <span class="time">To be announced</span></h5>
-                    <p>Cocktail hour will immediatly follow the ceremony. The "Glass House" and the full grounds of the
-						Botanical Gardens will be open for guests to enjoy</p>
+                    <h5>Cocktail Hour <span class="time">Following ceremony</span></h5>
+                    <p>Cocktail hour will immediatly follow the ceremony. Guests will use this time to grab a cocktail
+					and make their way to the patio for dinner. There will be passed hors d'oeuvres durring cocktail hour</p>
                 </div>
 				<div class="wp5">
-					<h5>Dinner and Reception <span class="time">To be announced</span></h5>
-					<p>A plated dinner and reception will follow the cocktail hour. More details to follow</p>
+					<h5>Dinner and Reception <span class="time">7PM-ish</span></h5>
+					<p>A buffet dinner and reception will follow the cocktail hour. <br/>
+					The "Glass House" and the full grounds of the
+					Botanical Gardens will be open for guests to enjoy</p>
 				</div>
             </div>
         </div>
@@ -198,6 +205,9 @@ X Disable RSVP for now
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
                     </button>
                     <h3 class="text-center section-padding">Dinner Options</h3>
+					<h4 class="text-center">Salad and bread will be served at table.<br/>
+					Dinner will be served buffet style<br/>
+					Cake and coffee will be available after dinner</h4><p/>
                     <h5>Dinner option 1</h5>
                     <p>
                         <strong>Details to come</strong>
@@ -223,25 +233,16 @@ X Disable RSVP for now
 
 </section>
 
-<!--
-<section id="instagram" class="section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h3>A picture is worth a thousand words!</h3>
-                <p>Help us capture the moment, tag your photos with the hashtag
-                    <a href="https://instagram.com/explore/tags/ramandantara/" target="_blank">#RamAndAntara</a>
-                </p>
-            </div>
-        </div>
-        <div class="row section-border wp7">
-            <div class="col-md-4 col-md-offset-4">
-                <img src="img/iphone_instagram.jpg">
-            </div>
-        </div>
+<section id="covid19" class="section-padding">
+    <div class="text-center">
+        <h3>COVID-19 Protocol</h3>
+        <p>In order to keep everyone safe, we will be following the Botanical Garden's COVID-19 safety protocol.
+		Currently, this requires masks to be worn indoors.
+		Weather permitting, all events are planned to be outside.<br/>
+		We encourage all guests to stay up to date with guidelines from the CDC regarding travel, vaccination, and testing.
+        </p>
     </div>
 </section>
--->
 
 <section id="eng-pics" class="section-padding">
     <div class="container-fluid">
@@ -339,12 +340,19 @@ X Disable RSVP for now
     </div>
 </section>
 
+<section id="hotel" class="section-padding">
+	<div class="text-center">
+		<h3>Accomodations</h3>
+		<p>Accomodations for nights of Friday the 15th and Saturday the 16th can be reserved at the Glidden House or the University Circle Marriott Courtyard hotels. Links will be provided when invitations are sent.</p>
+	</div>
+</section>
+
 <section id="map" class="section-padding">
     <div class="text-center">
         <h3>How do I get there?</h3>
-        <p>It's way easier than you think!</p>
+        <!--<p>It's way easier than you think!</p>-->
     </div>
-    <div id="map-canvas"></div>
+<!--<div id="map-canvas"></div>
     <div id="map-content-wrapper" class="container pointer-events-none">
         <div class="row">
             <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
@@ -358,7 +366,8 @@ X Disable RSVP for now
                         <!--<div class="col-md-6">-->
 							<div class="text-center">
 								<h5>11030 East Blvd</h5>
-								<p>Cleveland, Ohio 44106</p>
+								<p>Cleveland, Ohio 44106<br/>
+								<em>Note that the entrance to the Cleveland Botanical Garden is from Wade Oval Drive, not East Boulevard</em></p>
 							</div>
                         <!--</div>-->
 						<!--
@@ -368,7 +377,7 @@ X Disable RSVP for now
                                 <i class="fa fa-mobile"></i> <a href="tel://+917123456789">+91 7123456789</a></p>
                         </div>
 						-->
-                    </div>
+<!--                    </div>
                     <div class="row text-center">
                         <!--
 						<div class="col-md-6" style="padding: 5px;">
@@ -378,14 +387,14 @@ X Disable RSVP for now
                         </div>
 						-->
                         <!--<div class="col-md-6" style="padding: 5px;">-->
-                            <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
+<!--                            <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
                                 map</a>
                         <!--</div>-->
-                    </div>
+<!--                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 </section>
 
 <section class="rsvp text-center" id="rsvp">
@@ -411,7 +420,8 @@ X Disable RSVP for now
             <div class="col-md-6 col-md-offset-3">
                 <h3>Online RSVP</h3>
                 <p>Online RSVP will be available after invitations are sent.</p>
-                <!--<form id="rsvp-form" class="rsvp-form"
+                <!-- -->
+				<form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
                     <div class="row">
@@ -448,14 +458,22 @@ X Disable RSVP for now
                             </div>
                         </div>
                     </div>
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="form-input-group">
+								<i class="fa fa-users"></i><input type="text" name="dietary" rows="3" class=""
+																	placeholder="List additional guest names and any dietary requirements">
+							</div>
+						</div>
+					</div>
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
                     </div>
                     <button class="btn-fill rsvp-btn">
-                        Yes,
-                        that's me!
+                        Send RSVP
                     </button>
-                </form>-->
+                </form>
+				<!-- -->
             </div>
         </div>
     </div>
