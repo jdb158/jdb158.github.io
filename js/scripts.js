@@ -211,6 +211,16 @@ $(document).ready(function () {
     $('#rsvp-form').on('submit', function (e) {
         e.preventDefault();
         var data = $(this).serialize();
+		
+		if (isset($_POST['rsvpyes'])) {
+			data=data.concat("&yes_no=yes");
+		} else if (isset($_POST['delete_button'])) {
+			data=data.concat("&yes_no=yes");
+		} else {
+			data=data.concat("&yes_no=unknown");
+		}
+		
+		//data = data.concat("&yes_no=yes");
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
